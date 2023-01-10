@@ -8,7 +8,6 @@ import java.util.Date;
 @Entity
 @Table(name = "pessoa")
 public class Pessoa {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

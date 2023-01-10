@@ -6,7 +6,6 @@ import com.gsc.cadastro.model.Endereco;
 import com.gsc.cadastro.model.Pessoa;
 import com.gsc.cadastro.repositories.EnderecoRepository;
 import com.gsc.cadastro.repositories.PessoaRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.LinkedList;

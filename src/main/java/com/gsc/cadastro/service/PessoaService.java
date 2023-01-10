@@ -3,7 +3,6 @@ package com.gsc.cadastro.service;
 import com.gsc.cadastro.DTO.PessoaDTO;
 import com.gsc.cadastro.model.Pessoa;
 import com.gsc.cadastro.repositories.PessoaRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.LinkedList;

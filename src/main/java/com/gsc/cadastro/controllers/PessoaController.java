@@ -26,7 +26,6 @@ public class PessoaController {
     public ResponseEntity<PessoaDTO> getPetsById(@PathVariable Long id){
         return ResponseEntity.ok(service.findById(id));
     }
-
     @PostMapping
     public ResponseEntity<PessoaDTO> create(@RequestBody @Valid PessoaDTO dto) throws ParseException{
         return ResponseEntity.status(HttpStatus.CREATED).body(service.create(dto));

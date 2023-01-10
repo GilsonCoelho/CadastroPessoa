@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 @Repository
 public interface EnderecoRepository extends JpaRepository<Endereco, Long> {
-
     @Query(value ="SELECT * FROM ENDERECO WHERE pessoa_fk = :id", nativeQuery = true)
     List<Endereco> listToPessoa(Long id);
 

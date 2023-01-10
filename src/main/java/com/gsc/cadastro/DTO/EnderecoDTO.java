@@ -1,7 +1,6 @@
 package com.gsc.cadastro.DTO;
 
 import com.gsc.cadastro.enums.TipoEnderecoEnum;
-import com.gsc.cadastro.model.Pessoa;
 
 public class EnderecoDTO {
 
@@ -16,7 +15,6 @@ public class EnderecoDTO {
 
     public EnderecoDTO() {
     }
-
     public EnderecoDTO(Long id, String logradouro, String cep, String numero, String complemento, String cidade, PessoaDTO pessoa, TipoEnderecoEnum tipo) {
         this.id = id;
         this.logradouro = logradouro;
